@@ -342,91 +342,62 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
-/*--------------------------------------------------------------
-# Facts
---------------------------------------------------------------*/
-.facts {
-  padding-bottom: 30px;
-}
-
-.facts .count-box {
-  padding: 30px;
-  width: 100%;
-}
-
-.facts .count-box i {
-  display: block;
-  font-size: 44px;
-  color: #149ddd;
-  float: left;
-}
-
-.facts .count-box span {
-  font-size: 48px;
-  line-height: 40px;
-  display: block;
-  font-weight: 700;
-  color: #050d18;
-  margin-left: 60px;
-}
-
-.facts .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  color: #122f57;
-}
-
-.facts .count-box a {
-  font-weight: 600;
-  display: block;
-  margin-top: 20px;
-  color: #122f57;
-  font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  transition: ease-in-out 0.3s;
-}
-
-.facts .count-box a:hover {
-  color: #1f5297;
+.alert {
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
+#skills .card {
+  text-align: center;
+  border-color: blue;
+  box-shadow: 0 0.5rem 1rem rgba(15, 225, 236, 0.15) !important;
 }
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
+#skills .card i {
+  font-size: 5em !important;
 }
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+#skills .row {
+  margin-bottom: 10px;
 }
-
-.skills .progress-bar-wrap {
-  background: #dce8f8;
+.html,
+.css,
+.javascript,
+.bootstrap,
+.git,
+.sass,
+.reactjs,
+.reactstrap {
+  color: white;
 }
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #149ddd;
+.html {
+  background-color: chocolate;
 }
+.css {
+  background-color: blue;
+}
+.javascript {
+  background-color: goldenrod;
+}
+.bootstrap {
+  background-color: rgb(3, 3, 79);
+}
+.git {
+  background-color: coral;
+}
+.sass {
+  background-color: palevioletred;
+}
+@media (max-width: 768px) {
+  #skills .card {
+    margin-bottom: 10px;
+  }
+}
+/*--------------------------------------------------------------
+# End Skills
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Portfolio
