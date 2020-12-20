@@ -362,14 +362,18 @@ section {
 #skills .row {
   margin-bottom: 10px;
 }
+#skills .react_bootstrap {
+  display: block;
+  width: 5em;
+  border-radius: 50%;
+}
 .html,
 .css,
 .javascript,
 .bootstrap,
 .git,
 .sass,
-.reactjs,
-.reactstrap {
+.reactjs {
   color: white;
 }
 .html {
@@ -389,6 +393,9 @@ section {
 }
 .sass {
   background-color: palevioletred;
+}
+.reactjs {
+  background-color: rgb(0, 155, 179);
 }
 @media (max-width: 768px) {
   #skills .card {
